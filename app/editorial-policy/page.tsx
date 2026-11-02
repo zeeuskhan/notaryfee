@@ -1,0 +1,9 @@
+import InfoPage from "../components/InfoPage";
+export const metadata={title:"Editorial Policy | NotaryFee",description:"How NotaryFee researches, sources, reviews and corrects U.S. notary fee and travel rule information."};
+export default function Page(){return <InfoPage eyebrow="Editorial standards" title="How we research and maintain our guides" description="Notary fee information can affect real customer quotes. We aim to make our sources, limitations and corrections easy to understand.">
+<h2>Source hierarchy</h2><ol><li>Current state statutes and administrative codes.</li><li>Official Secretary of State, commissioning authority and state government guidance.</li><li>Recognized professional organizations for context, clearly distinguished from binding law.</li></ol>
+<h2>Separate law from market practice</h2><p>Legal maximums, permitted travel charges, loan-signing compensation and typical market prices are different concepts. We do not present a market estimate as a statutory rule or imply that a fee is automatically permitted just because it is commonly charged.</p>
+<h2>Dates and uncertainty</h2><p>Where jurisdiction-specific information is published, it should identify its source and review date. If an official source is unclear or unavailable, we should say that the rule is not verified rather than guess.</p>
+<h2>Corrections</h2><p>Readers can report suspected errors through our <a href="https://github.com/zeeuskhan/notaryfee/issues" target="_blank" rel="noreferrer">public issue tracker</a>. Corrections should be checked against primary sources before publication.</p>
+<h2>Independence</h2><p>NotaryFee is an independent resource and is not affiliated with the National Notary Association or any state commissioning authority.</p>
+</InfoPage>}
