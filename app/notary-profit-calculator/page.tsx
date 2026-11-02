@@ -1,0 +1,8 @@
+import InfoPage from "../components/InfoPage";
+export const metadata={title:"Notary Job Profit Calculator: Estimate Costs and Earnings | NotaryFee",description:"Learn how to estimate a mobile notary appointment's gross quote, direct expenses and remaining amount without confusing it with taxable profit."};
+export default function Page(){return <InfoPage eyebrow="Business math" title="Estimate the costs behind a notary appointment" description="A quote is only one side of the job. Reviewing mileage, supplies, parking and time helps you understand what remains after the costs you enter.">
+<h2>Simple estimate</h2><p><strong>Amount after listed expenses = quote total − expenses entered.</strong> This is a basic planning figure, not net business income or taxable profit.</p>
+<h2>Costs worth tracking</h2><ul><li>Vehicle mileage and fuel-related costs.</li><li>Parking, tolls and other trip costs.</li><li>Printing, paper, toner and shipping.</li><li>Software, payment processing and business overhead.</li><li>Unpaid travel, waiting and administrative time.</li></ul>
+<h2>Calculate effective hourly earnings</h2><p>For a fuller business view, divide the amount remaining after all relevant costs by the total time spent on the job, including travel, preparation, appointment and follow-up. Use consistent assumptions when comparing assignments.</p>
+<h2>Try the estimate tool</h2><p>The <a href="/#calculator">NotaryFee calculator</a> lets you enter a quote's main components and other job expenses. It does not provide tax advice or automatically account for every business cost.</p>
+</InfoPage>}
