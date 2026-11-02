@@ -1,0 +1,8 @@
+import InfoPage from "../components/InfoPage";
+export const metadata={title:"Fee Calculator Methodology | NotaryFee",description:"Understand how NotaryFee estimates notarial charges, mileage, travel fees, expenses and quote totals."};
+export default function Page(){return <InfoPage eyebrow="Methodology" title="How the NotaryFee estimate is calculated" description="The calculator is designed to show quote components separately so users can review the assumptions behind a total.">
+<h2>Basic estimate formula</h2><p><strong>Illustrative total = notarial charges + mileage amount + additional travel amount + other entered expenses.</strong></p><p>For the current calculator, mileage amount is round-trip miles multiplied by the mileage rate entered by the user. Notarial charges are the number of notarizations multiplied by the per-notarization amount entered.</p>
+<h2>What the estimate does not decide</h2><p>The calculator does not determine whether a charge is legally permitted, whether a state counts a fee per act, signature, signer or certificate, or whether a separate travel charge must be disclosed or agreed in advance.</p>
+<h2>Profit and expenses</h2><p>The displayed amount after listed expenses is a simple arithmetic estimate based only on the expense field entered. It is not accounting profit, taxable income or a full business profitability calculation. It excludes any costs not entered by the user.</p>
+<h2>Source and review approach</h2><p>State-law guidance should be checked against the relevant state statute, administrative code or official government instructions. General professional references can help explain context but do not replace primary legal sources.</p>
+</InfoPage>}
