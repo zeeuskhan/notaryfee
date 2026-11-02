@@ -18,3 +18,6 @@ npm run dev
 
 ## Important
 This tool provides estimates only. Notary fees and travel-charge rules vary by jurisdiction and can change. Verify current requirements with the relevant official state authority before charging a customer. No official fee schedule is represented here.
+
+
+Deployment source of truth: GitHub `main`. Vercel is connected for Git-based deployments.
