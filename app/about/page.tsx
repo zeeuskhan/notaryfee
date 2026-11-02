@@ -1,0 +1,8 @@
+import InfoPage from "../components/InfoPage";
+export const metadata={title:"About NotaryFee | Free Tools for Notary Professionals",description:"Learn why NotaryFee exists and how its free estimating tools help mobile notaries organize transparent client quotes."};
+export default function Page(){return <InfoPage eyebrow="About NotaryFee" title="Practical pricing tools for notary professionals" description="NotaryFee helps independent notaries and signing professionals organize estimates, travel costs and appointment expenses.">
+<h2>Our purpose</h2><p>NotaryFee is an independent educational and estimating resource. Our goal is to make it easier to prepare understandable quotes by separating notarial-act charges from travel and other appointment costs.</p>
+<h2>Who this website is for</h2><p>The tools are designed for U.S. notaries public, mobile notaries, loan signing agents and people comparing the possible cost of a notary appointment.</p>
+<h2>What NotaryFee is not</h2><p>We are not a government agency, law firm, notary commissioning authority or booking marketplace. We do not commission notaries, provide legal advice, or guarantee that a particular fee is permitted in every jurisdiction.</p>
+<h2>Accuracy matters</h2><p>Notary laws and administrative rules differ by state and can change. Before relying on a fee figure, check the current statute, administrative code or Secretary of State guidance for the relevant jurisdiction.</p>
+</InfoPage>}
