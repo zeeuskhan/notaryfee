@@ -1,0 +1,9 @@
+import InfoPage from "../components/InfoPage";
+export const metadata={title:"Terms of Use and Disclaimer | NotaryFee",description:"Terms for using NotaryFee calculators and educational content. Estimates are informational and are not legal, tax or financial advice."};
+export default function Page(){return <InfoPage eyebrow="Terms of use" title="Use NotaryFee as an estimate, not a legal ruling" description="By using this website, you agree to use its calculators and educational material for general informational purposes only.">
+<h2>No legal or professional advice</h2><p>NotaryFee is not a law firm, government agency, tax adviser or official fee authority. Website content is not legal, tax, accounting or financial advice and does not create a professional relationship.</p>
+<h2>Verify every applicable rule</h2><p>State and local laws may regulate notarial-act fees, travel charges, disclosures, remote notarization and recordkeeping differently. You are responsible for checking current official requirements and obtaining any required customer agreement before charging a fee.</p>
+<h2>Estimates are not guarantees</h2><p>Calculator results depend on the values entered by the user. They may not include every cost, legal restriction, tax, platform fee or appointment-specific condition. We do not guarantee the accuracy or suitability of any estimate for a particular transaction.</p>
+<h2>Third-party links</h2><p>Links to external resources are provided for convenience. We do not control or guarantee third-party content, availability or accuracy.</p>
+<h2>Changes and availability</h2><p>We may revise, suspend or remove website features and content. Use of the website is at your own discretion and risk.</p>
+</InfoPage>}
